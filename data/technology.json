@@ -1,0 +1,28 @@
+{
+  "technology": [
+    {
+      "name": "Launch vehicle",
+      "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
+      "images": {
+        "portrait": "img/vehicle-1.jpg",
+        "landscape": "img/vehicle-1-tablet.jpg"
+      }
+    },
+    {
+      "name": "Spaceport",
+      "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to a seaport for ships or an airport for aircraft. The term spaceport, and even more so cosmodrome, has traditionally been used for sites capable of launching spacecraft into orbit around Earth or on interplanetary trajectories.",
+      "images": {
+        "portrait": "img/spaceport.webp",
+        "landscape": "img/spaceport-tablet.jpg"
+      }
+    },
+    {
+      "name": "Space capsule",
+      "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.",
+      "images": {
+        "portrait": "img/capsule.webp",
+        "landscape": "img/capsule-tablet.jpg"
+      }
+    }
+  ]
+}

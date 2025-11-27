@@ -1,0 +1,44 @@
+{
+  "crew": [
+    {
+      "role": "Commander",
+      "name": "Douglas Hurley",
+      "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
+      "images": {
+        "desktop": "img/douglas-hurley.png",
+        "mobile": "img/douglas-hurley-mobile.png",
+        "tablet": "img/douglas-hurley-tablet.png"
+      }
+    },
+    {
+      "role": "Mission Specialist",
+      "name": "Mark Shuttleworth",
+      "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
+      "images": {
+        "desktop": "img/mark.png",
+        "mobile": "img/mark.png",
+        "tablet": "img/mark.png"
+      }
+    },
+    {
+      "role": "Pilot",
+      "name": "Victor Glover",
+      "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He has logged 3,000 flight hours in more than 40 aircraft.",
+      "images": {
+        "desktop": "img/victor.png",
+        "mobile": "img/victor.png",
+        "tablet": "img/victor.png"
+      }
+    },
+    {
+      "role": "Flight Engineer",
+      "name": "Anousheh Ansari",
+      "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first female space tourist, and the first Iranian in space.",
+      "images": {
+        "desktop": "img/anousheh.png",
+        "mobile": "img/anousheh.png",
+        "tablet": "img/anousheh.png"
+      }
+    }
+  ]
+}

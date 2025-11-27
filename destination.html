@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="">
+<!-- Mettre le code langue du site dans l'attribut lang -->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Space tourism</title>
+	<meta name="description" content="" />
+
+	<link rel="icon" href="/favicon.ico" sizes="any" />
+	<!-- 32×32 -->
+	<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<!-- 180×180 -->
+	<link rel="manifest" href="/manifest.webmanifest" />
+	<!-- voir le fichier manifest.webmanifest -->
+
+	<!-- A terme : n'appeler qu'une seule feuille de style minifiée -->
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/helpers.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body id="destination-body">
+
+	<header>
+
+		<div class="nav container">
+
+			<picture class="logo">
+				<a href="index.html"><img src="img/logo.svg" alt=""></a>
+			</picture>
+
+			<nav>
+				<ul id="main-menu" class="nav-links" hidden>
+					<li class="nav-link">
+						<a href="index.html"><span>00</span>Home</a>
+					</li>
+					<li class="nav-link active">
+						<a href="destination.html"><span>01</span> Destination</a>
+					</li>
+					<li class="nav-link">
+						<a href="crew.html"><span>02</span> Crew</a>
+					</li>
+					<li class="nav-link">
+						<a href="technology.html"><span>03</span> Technology</a>
+					</li>
+				</ul>
+				<button aria-expanded="false" aria-controls="main-menu"><img id="burger-button-image" src="/img/burger-1.png" alt=""></button>
+			</nav>
+
+		</div>
+
+	</header>
+
+	<main class="destination container">
+
+        <p class="page-title"><span>01</span> Pick your destination</p>
+
+        <div class="destination-container">
+
+            <picture class="destination-picture">
+                <img src="img/moon.png" alt="">
+            </picture>
+
+            <section class="destination-content">
+
+                <nav class="destination-nav">
+                    <ul class="destination-nav-links">
+                        <li class="destination-nav-link">
+                            <button class="destination-nav-button active">Moon</button>
+                        </li>
+                        <li class="destination-nav-link">
+                            <button class="destination-nav-button">Mars</button>
+                        </li>
+                        <li class="destination-nav-link">
+                            <button class="destination-nav-button">Europa</button>
+                        </li>
+                        <li class="destination-nav-link">
+                            <button class="destination-nav-button">Titan</button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="destination-text">
+
+                    <h2>Moon</h2>
+
+                    <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+                    <hr class="destination-hr">
+
+                    <div class="destination-text-bottom">
+
+                        <div class="destination-text-bottom-item">
+                            <p class="destination-text-bottom-item-title">avg. distance</p>
+                            <p class="destination-text-bottom-item-text">384,400 km</p>
+                        </div>
+                        <div class="destination-text-bottom-item">
+                            <p class="destination-text-bottom-item-title">est. travel time</p>
+                            <p class="destination-text-bottom-item-text">3 days</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+	</main>
+
+
+	
+</body>
+<script src="js/nav.js"></script>
+<script src="js/destination.js"></script>
+</html>
